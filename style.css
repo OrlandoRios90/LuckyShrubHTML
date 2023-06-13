@@ -1,0 +1,127 @@
+
+body {
+    background-color: #f1f7e9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #206e6a;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 7%;
+}
+
+nav {
+    border-radius: 15px;
+    background: #26827e;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+    padding-left: 40px;
+    
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    font-size: larger;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.promo-banner {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.promo-img {
+    height: auto;
+    border-radius: 15px;
+    
+}
+
+.promo-text {
+    position: absolute;
+    top: 40%;
+    left: 16px;
+    color: white;
+    background-color: rgb(32, 110, 106,0.2);
+    border-radius: 15px;
+}
+
+#promo-title {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+.columns {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    column-gap: 3%;
+}
+
+.h2-title:hover {
+    font-size: 2.2rem;
+}
+
+.article {
+    border-radius: 15px;
+    background-color: rgb(32, 110, 106,0.2);
+    text-align: center;
+}
+
+.article > h2 {
+    padding: 8px;
+}
+
+.aricle > p {
+    padding: 20px;
+}
+
+#tools-prev, #plants-prev, #services-prev {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.footer-left {
+    float: left;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.footer-right {
+    float: right;
+    border-top: 5px solid rgb(32, 110, 106);
+    width: 30%;
+    text-align: right;
+}
+
+
